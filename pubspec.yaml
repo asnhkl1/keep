@@ -1,0 +1,22 @@
+name: keep
+description: A new flutter keepAlivePlugin project.
+version: 0.0.1
+author: Mr.Lee<asn_hkl2@163.com>
+homepage: https://www.baidu.com
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  plugin:
+    androidPackage: com.lee.keep
+    pluginClass: KeepPlugin
+
